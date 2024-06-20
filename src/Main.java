@@ -26,8 +26,16 @@ public class Main {
         pasajero4.mostrar();
         pasajero5.mostrar();
         //Objetos con valores quemados
-        ticket pasajero1 = new ticket();
-        ticket pasajero2 = new ticket();
-
+        ticket ticket1 = new ticket(1237845712,"Efectivo","Cooperativa de transportes");
+        ticket ticket2 = new ticket(1728904563,"Tarjeta","Transportes Ecuador");
+        ticket ticket3 = new ticket(1701234567,"Tarjeta", "Globaluvis");
+        ticket ticket4 = new ticket(1712345678,"Efectivo", "Trans Ecuador");
+        ticket ticket5 = new ticket(1797862390,"Efectivo", "Cooperativa de transportes");
+        //Imprimir
+        ticket1.mostrar();
+        ticket2.mostrar();
+        ticket3.mostrar();
+        ticket4.mostrar();
+        ticket5.mostrar();
     }
 }
